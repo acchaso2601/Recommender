@@ -15,7 +15,7 @@ public class CFExe {
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 		
-
+//		Patternごとにクロスバリデーション
 		for(int i = 0;i<Ini.Pattern;i++){
 			System.err.println("---------Read User Log--------");
 			System.out.println("["+new Date().toString()+"]");

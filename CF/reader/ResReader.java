@@ -43,10 +43,7 @@ public class ResReader {
 		}
 
 		public void run(){
-			File[] in = new File(Ini.log).listFiles();
 			BufferedReader br;
-
-
 				try {
 					br = new BufferedReader(new InputStreamReader(new FileInputStream(_f),"UTF-8"));
 					int UserID = Integer.parseInt(_f.getName().replace(".txt", ""));
